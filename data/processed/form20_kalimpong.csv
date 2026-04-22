@@ -1,0 +1,403 @@
+district,ac_code,ac_name,part_no,booth_name,year,votes_P1,votes_P2,votes_P3,votes_P4,votes_NOTA,total_votes,winner,margin,turnout_pct
+Kalimpong,2201,Klp-2201,1,Market Building 1,2019,213,214,5,121,4,557,P2,1,68.8
+Kalimpong,2201,Klp-2201,1,Market Building 1,2021,201,224,10,104,5,544,P2,23,67.2
+Kalimpong,2201,Klp-2201,2,Community Hall 2,2019,154,169,7,67,3,400,P2,15,70.8
+Kalimpong,2201,Klp-2201,2,Community Hall 2,2021,167,140,5,52,4,368,P1,27,65.1
+Kalimpong,2201,Klp-2201,3,Community Hall 3,2019,166,211,9,76,5,467,P2,45,68.4
+Kalimpong,2201,Klp-2201,3,Community Hall 3,2021,172,217,11,81,5,486,P2,45,71.2
+Kalimpong,2201,Klp-2201,4,Madrasa 4,2019,142,188,6,92,4,432,P2,46,74.2
+Kalimpong,2201,Klp-2201,4,Madrasa 4,2021,176,196,5,35,4,416,P2,20,71.5
+Kalimpong,2201,Klp-2201,5,Anganwadi Centre 5,2019,202,233,2,41,6,484,P2,31,72.3
+Kalimpong,2201,Klp-2201,5,Anganwadi Centre 5,2021,136,198,6,90,5,435,P2,62,65.0
+Kalimpong,2201,Klp-2201,6,Health Sub-Centre 6,2019,241,213,5,50,5,514,P1,28,68.8
+Kalimpong,2201,Klp-2201,6,Health Sub-Centre 6,2021,194,226,9,99,6,534,P2,32,71.5
+Kalimpong,2201,Klp-2201,7,Community Hall 7,2019,171,142,5,39,3,360,P1,29,71.3
+Kalimpong,2201,Klp-2201,7,Community Hall 7,2021,124,174,3,40,2,343,P2,50,67.9
+Kalimpong,2201,Klp-2201,8,Community Hall 8,2019,149,210,5,36,3,403,P2,61,66.9
+Kalimpong,2201,Klp-2201,8,Community Hall 8,2021,189,178,8,65,5,445,P1,11,73.9
+Kalimpong,2201,Klp-2201,9,Madrasa 9,2019,153,198,12,92,5,460,P2,45,68.0
+Kalimpong,2201,Klp-2201,9,Madrasa 9,2021,221,180,1,39,4,445,P1,41,65.8
+Kalimpong,2201,Klp-2201,10,High School 10,2019,178,271,6,100,6,561,P2,93,72.9
+Kalimpong,2201,Klp-2201,10,High School 10,2021,247,242,3,46,6,544,P1,5,70.6
+Kalimpong,2201,Klp-2201,11,Market Building 11,2019,213,195,10,90,5,513,P1,18,69.3
+Kalimpong,2201,Klp-2201,11,Market Building 11,2021,217,237,4,42,4,504,P2,20,68.1
+Kalimpong,2201,Klp-2201,12,Primary School 12,2019,242,192,5,38,5,482,P1,50,66.4
+Kalimpong,2201,Klp-2201,12,Primary School 12,2021,214,227,3,46,5,495,P2,13,68.2
+Kalimpong,2201,Klp-2201,13,Anganwadi Centre 13,2019,253,214,2,45,5,519,P1,39,66.1
+Kalimpong,2201,Klp-2201,13,Anganwadi Centre 13,2021,288,214,7,72,6,587,P1,74,74.8
+Kalimpong,2201,Klp-2201,14,Primary School 14,2019,197,276,4,66,5,548,P2,79,71.4
+Kalimpong,2201,Klp-2201,14,Primary School 14,2021,173,218,7,98,5,501,P2,45,65.3
+Kalimpong,2201,Klp-2201,15,Post Office 15,2019,168,216,2,70,5,461,P2,48,70.3
+Kalimpong,2201,Klp-2201,15,Post Office 15,2021,247,156,4,36,5,448,P1,91,68.3
+Kalimpong,2201,Klp-2201,16,Temple Hall 16,2019,151,220,2,35,4,412,P2,69,71.4
+Kalimpong,2201,Klp-2201,16,Temple Hall 16,2021,105,173,13,126,4,421,P2,47,73.0
+Kalimpong,2201,Klp-2201,17,Primary School 17,2019,183,226,10,90,5,514,P2,43,65.6
+Kalimpong,2201,Klp-2201,17,Primary School 17,2021,240,270,3,48,5,566,P2,30,72.3
+Kalimpong,2201,Klp-2201,18,Health Sub-Centre 18,2019,198,235,4,39,6,482,P2,37,65.6
+Kalimpong,2201,Klp-2201,18,Health Sub-Centre 18,2021,190,249,4,43,5,491,P2,59,66.8
+Kalimpong,2201,Klp-2201,19,Madrasa 19,2019,189,250,4,40,5,488,P2,61,65.1
+Kalimpong,2201,Klp-2201,19,Madrasa 19,2021,175,234,11,82,6,508,P2,59,67.7
+Kalimpong,2201,Klp-2201,20,Post Office 20,2019,219,225,4,40,5,493,P2,6,65.5
+Kalimpong,2201,Klp-2201,20,Post Office 20,2021,230,241,4,81,5,561,P2,11,74.5
+Kalimpong,2201,Klp-2201,21,Market Building 21,2019,198,237,6,58,5,504,P2,39,69.9
+Kalimpong,2201,Klp-2201,21,Market Building 21,2021,178,214,11,76,5,484,P2,36,67.1
+Kalimpong,2201,Klp-2201,22,Health Sub-Centre 22,2019,132,150,8,64,3,357,P2,18,67.4
+Kalimpong,2201,Klp-2201,22,Health Sub-Centre 22,2021,196,116,4,27,4,347,P1,80,65.5
+Kalimpong,2201,Klp-2201,23,Post Office 23,2019,144,270,7,65,5,491,P2,126,71.6
+Kalimpong,2201,Klp-2201,23,Post Office 23,2021,167,204,8,81,5,465,P2,37,67.8
+Kalimpong,2201,Klp-2201,24,Panchayat Bhavan 24,2019,151,145,3,42,3,344,P1,6,70.9
+Kalimpong,2201,Klp-2201,24,Panchayat Bhavan 24,2021,155,160,3,37,5,360,P2,5,74.2
+Kalimpong,2201,Klp-2201,25,Temple Hall 25,2019,215,254,3,44,5,521,P2,39,66.1
+Kalimpong,2201,Klp-2201,25,Temple Hall 25,2021,246,258,4,46,6,560,P2,12,71.1
+Kalimpong,2201,Klp-2201,26,Club Building 26,2019,137,191,19,195,6,548,P4,4,73.5
+Kalimpong,2201,Klp-2201,26,Club Building 26,2021,225,212,6,43,5,491,P1,13,65.8
+Kalimpong,2201,Klp-2201,27,Post Office 27,2019,223,164,7,66,4,464,P1,59,73.3
+Kalimpong,2201,Klp-2201,27,Post Office 27,2021,148,199,5,77,5,434,P2,51,68.6
+Kalimpong,2201,Klp-2201,28,High School 28,2019,201,221,4,119,6,551,P2,20,72.8
+Kalimpong,2201,Klp-2201,28,High School 28,2021,240,201,5,39,6,491,P1,39,64.9
+Kalimpong,2201,Klp-2201,29,Madrasa 29,2019,229,142,4,33,5,413,P1,87,65.3
+Kalimpong,2201,Klp-2201,29,Madrasa 29,2021,149,232,5,57,5,448,P2,83,70.9
+Kalimpong,2201,Klp-2201,30,Govt Office 30,2019,257,202,2,58,5,524,P1,55,67.1
+Kalimpong,2201,Klp-2201,30,Govt Office 30,2021,193,249,7,94,6,549,P2,56,70.3
+Kalimpong,2201,Klp-2201,31,Club Building 31,2019,144,166,2,29,4,345,P2,22,65.2
+Kalimpong,2201,Klp-2201,31,Club Building 31,2021,143,178,3,31,3,358,P2,35,67.7
+Kalimpong,2201,Klp-2201,32,Health Sub-Centre 32,2019,200,227,7,62,5,501,P2,27,66.7
+Kalimpong,2201,Klp-2201,32,Health Sub-Centre 32,2021,187,207,4,97,5,500,P2,20,66.6
+Kalimpong,2201,Klp-2201,33,Market Building 33,2019,183,193,15,155,5,551,P2,10,69.4
+Kalimpong,2201,Klp-2201,33,Market Building 33,2021,160,205,11,140,5,521,P2,45,65.6
+Kalimpong,2201,Klp-2201,34,Club Building 34,2019,153,295,3,79,6,536,P2,142,70.8
+Kalimpong,2201,Klp-2201,34,Club Building 34,2021,282,202,2,46,5,537,P1,80,70.9
+Kalimpong,2201,Klp-2201,35,Panchayat Bhavan 35,2019,169,169,4,30,4,376,P1,0,72.9
+Kalimpong,2201,Klp-2201,35,Panchayat Bhavan 35,2021,168,169,4,29,5,375,P2,1,72.7
+Kalimpong,2201,Klp-2201,36,Club Building 36,2019,134,194,3,30,3,364,P2,60,70.7
+Kalimpong,2201,Klp-2201,36,Club Building 36,2021,128,172,6,69,3,378,P2,44,73.4
+Kalimpong,2201,Klp-2201,37,Madrasa 37,2019,167,270,6,83,5,531,P2,103,67.9
+Kalimpong,2201,Klp-2201,37,Madrasa 37,2021,182,289,3,46,5,525,P2,107,67.1
+Kalimpong,2201,Klp-2201,38,Club Building 38,2019,150,165,7,80,4,406,P2,15,65.9
+Kalimpong,2201,Klp-2201,38,Club Building 38,2021,175,168,5,55,4,407,P1,7,66.1
+Kalimpong,2201,Klp-2201,39,Govt Office 39,2019,244,184,5,38,5,476,P1,60,73.2
+Kalimpong,2201,Klp-2201,39,Govt Office 39,2021,172,249,5,37,5,468,P2,77,72.0
+Kalimpong,2201,Klp-2201,40,Club Building 40,2019,217,271,6,43,5,542,P2,54,73.3
+Kalimpong,2201,Klp-2201,40,Club Building 40,2021,181,230,4,61,5,481,P2,49,65.1
+Kalimpong,2201,Klp-2201,41,Panchayat Bhavan 41,2019,222,152,4,33,4,415,P1,70,73.6
+Kalimpong,2201,Klp-2201,41,Panchayat Bhavan 41,2021,154,164,9,85,4,416,P2,10,73.8
+Kalimpong,2201,Klp-2201,42,Health Sub-Centre 42,2019,190,233,6,51,5,485,P2,43,71.4
+Kalimpong,2201,Klp-2201,42,Health Sub-Centre 42,2021,217,175,8,65,6,471,P1,42,69.4
+Kalimpong,2201,Klp-2201,43,Govt Office 43,2019,126,157,5,61,3,352,P2,31,70.0
+Kalimpong,2201,Klp-2201,43,Govt Office 43,2021,120,175,4,40,4,343,P2,55,68.2
+Kalimpong,2201,Klp-2201,44,High School 44,2019,126,178,5,61,4,374,P2,52,71.1
+Kalimpong,2201,Klp-2201,44,High School 44,2021,164,140,3,37,4,348,P1,24,66.2
+Kalimpong,2201,Klp-2201,45,Post Office 45,2019,151,181,2,34,4,372,P2,30,74.8
+Kalimpong,2201,Klp-2201,45,Post Office 45,2021,131,158,2,34,3,328,P2,27,66.0
+Kalimpong,2201,Klp-2201,46,Madrasa 46,2019,158,203,4,99,6,470,P2,45,72.5
+Kalimpong,2201,Klp-2201,46,Madrasa 46,2021,174,185,5,90,5,459,P2,11,70.8
+Kalimpong,2201,Klp-2201,47,Anganwadi Centre 47,2019,224,245,2,62,5,538,P2,21,72.4
+Kalimpong,2201,Klp-2201,47,Anganwadi Centre 47,2021,172,238,7,81,5,503,P2,66,67.7
+Kalimpong,2201,Klp-2201,48,Primary School 48,2019,158,165,4,28,4,359,P2,7,68.3
+Kalimpong,2201,Klp-2201,48,Primary School 48,2021,127,142,7,114,3,393,P2,15,74.7
+Kalimpong,2201,Klp-2201,49,Health Sub-Centre 49,2019,179,226,6,110,5,526,P2,47,68.0
+Kalimpong,2201,Klp-2201,49,Health Sub-Centre 49,2021,282,218,5,45,6,556,P1,64,71.9
+Kalimpong,2201,Klp-2201,50,Primary School 50,2019,146,216,7,78,4,451,P2,70,66.2
+Kalimpong,2201,Klp-2201,50,Primary School 50,2021,168,164,13,122,4,471,P1,4,69.2
+Kalimpong,2201,Klp-2201,51,Post Office 51,2019,148,156,3,57,4,368,P2,8,72.4
+Kalimpong,2201,Klp-2201,51,Post Office 51,2021,149,155,1,29,3,337,P2,6,66.3
+Kalimpong,2201,Klp-2201,52,Post Office 52,2019,243,263,5,46,6,563,P2,20,72.1
+Kalimpong,2201,Klp-2201,52,Post Office 52,2021,206,273,5,43,5,532,P2,67,68.1
+Kalimpong,2201,Klp-2201,53,Primary School 53,2019,95,165,7,56,4,327,P2,70,67.4
+Kalimpong,2201,Klp-2201,53,Primary School 53,2021,169,152,2,35,3,361,P1,17,74.4
+Kalimpong,2201,Klp-2201,54,Post Office 54,2019,190,234,14,97,5,540,P2,44,68.1
+Kalimpong,2201,Klp-2201,54,Post Office 54,2021,226,231,12,100,6,575,P2,5,72.5
+Kalimpong,2201,Klp-2201,55,High School 55,2019,134,125,6,64,3,332,P1,9,65.6
+Kalimpong,2201,Klp-2201,55,High School 55,2021,184,155,3,31,3,376,P1,29,74.3
+Kalimpong,2201,Klp-2201,56,Anganwadi Centre 56,2019,254,181,3,40,5,483,P1,73,74.0
+Kalimpong,2201,Klp-2201,56,Anganwadi Centre 56,2021,158,229,9,63,4,463,P2,71,70.9
+Kalimpong,2201,Klp-2201,57,Primary School 57,2019,198,240,3,45,5,491,P2,42,67.9
+Kalimpong,2201,Klp-2201,57,Primary School 57,2021,153,212,12,94,5,476,P2,59,65.8
+Kalimpong,2201,Klp-2201,58,High School 58,2019,199,221,4,38,5,467,P2,22,67.6
+Kalimpong,2201,Klp-2201,58,High School 58,2021,195,203,13,98,5,514,P2,8,74.4
+Kalimpong,2201,Klp-2201,59,Madrasa 59,2019,218,170,4,35,4,431,P1,48,70.4
+Kalimpong,2201,Klp-2201,59,Madrasa 59,2021,176,201,3,37,4,421,P2,25,68.8
+Kalimpong,2201,Klp-2201,60,Club Building 60,2019,165,172,9,90,4,440,P2,7,70.9
+Kalimpong,2201,Klp-2201,60,Club Building 60,2021,174,199,2,47,5,427,P2,25,68.8
+Kalimpong,2201,Klp-2201,61,Temple Hall 61,2019,219,110,4,29,4,366,P1,109,67.2
+Kalimpong,2201,Klp-2201,61,Temple Hall 61,2021,159,180,5,37,4,385,P2,21,70.6
+Kalimpong,2201,Klp-2201,62,Madrasa 62,2019,178,241,7,150,6,582,P2,63,72.7
+Kalimpong,2201,Klp-2201,62,Madrasa 62,2021,298,241,7,47,6,599,P1,57,74.8
+Kalimpong,2201,Klp-2201,63,Anganwadi Centre 63,2019,126,138,3,70,3,340,P2,12,68.1
+Kalimpong,2201,Klp-2201,63,Anganwadi Centre 63,2021,145,154,3,27,3,332,P2,9,66.5
+Kalimpong,2201,Klp-2201,64,Madrasa 64,2019,180,284,6,77,6,553,P2,104,72.0
+Kalimpong,2201,Klp-2201,64,Madrasa 64,2021,280,174,3,42,6,505,P1,106,65.8
+Kalimpong,2201,Klp-2201,65,Panchayat Bhavan 65,2019,167,165,2,31,3,368,P1,2,65.0
+Kalimpong,2201,Klp-2201,65,Panchayat Bhavan 65,2021,135,195,4,74,4,412,P2,60,72.8
+Kalimpong,2201,Klp-2201,66,Panchayat Bhavan 66,2019,115,142,11,93,3,364,P2,27,67.3
+Kalimpong,2201,Klp-2201,66,Panchayat Bhavan 66,2021,165,159,1,39,4,368,P1,6,68.0
+Kalimpong,2201,Klp-2201,67,Market Building 67,2019,169,198,12,122,5,506,P2,29,68.8
+Kalimpong,2201,Klp-2201,67,Market Building 67,2021,176,245,10,91,5,527,P2,69,71.7
+Kalimpong,2201,Klp-2201,68,Temple Hall 68,2019,174,171,12,96,5,458,P1,3,73.2
+Kalimpong,2201,Klp-2201,68,Temple Hall 68,2021,182,145,7,125,3,462,P1,37,73.8
+Kalimpong,2201,Klp-2201,69,Community Hall 69,2019,169,145,2,30,3,349,P1,24,72.1
+Kalimpong,2201,Klp-2201,69,Community Hall 69,2021,128,186,5,36,4,359,P2,58,74.2
+Kalimpong,2201,Klp-2201,70,Post Office 70,2019,189,203,9,75,4,480,P2,14,68.4
+Kalimpong,2201,Klp-2201,70,Post Office 70,2021,178,205,16,115,5,519,P2,27,73.9
+Kalimpong,2201,Klp-2201,71,Post Office 71,2019,151,189,4,104,5,453,P2,38,67.6
+Kalimpong,2201,Klp-2201,71,Post Office 71,2021,197,128,15,113,5,458,P1,69,68.4
+Kalimpong,2201,Klp-2201,72,Primary School 72,2019,121,167,3,66,4,361,P2,46,64.8
+Kalimpong,2201,Klp-2201,72,Primary School 72,2021,99,181,11,101,4,396,P2,80,71.1
+Kalimpong,2201,Klp-2201,73,Post Office 73,2019,267,260,7,46,6,586,P1,7,73.2
+Kalimpong,2201,Klp-2201,73,Post Office 73,2021,132,231,15,146,5,529,P2,85,66.0
+Kalimpong,2201,Klp-2201,74,Community Hall 74,2019,149,165,4,86,4,408,P2,16,66.3
+Kalimpong,2201,Klp-2201,74,Community Hall 74,2021,166,182,8,79,3,438,P2,16,71.2
+Kalimpong,2201,Klp-2201,75,Temple Hall 75,2019,261,236,6,44,5,552,P1,25,74.4
+Kalimpong,2201,Klp-2201,75,Temple Hall 75,2021,199,271,5,42,5,522,P2,72,70.4
+Kalimpong,2201,Klp-2201,76,Primary School 76,2019,198,280,3,82,5,568,P2,82,74.4
+Kalimpong,2201,Klp-2201,76,Primary School 76,2021,127,276,8,87,4,502,P2,149,65.8
+Kalimpong,2201,Klp-2201,77,Market Building 77,2019,196,240,8,72,5,521,P2,44,66.5
+Kalimpong,2201,Klp-2201,77,Market Building 77,2021,217,240,5,40,6,508,P2,23,64.9
+Kalimpong,2201,Klp-2201,78,Anganwadi Centre 78,2019,185,216,17,131,5,554,P2,31,69.2
+Kalimpong,2201,Klp-2201,78,Anganwadi Centre 78,2021,201,278,10,93,6,588,P2,77,73.5
+Kalimpong,2201,Klp-2201,79,Madrasa 79,2019,206,196,11,93,5,511,P1,10,69.7
+Kalimpong,2201,Klp-2201,79,Madrasa 79,2021,186,272,4,55,5,522,P2,86,71.2
+Kalimpong,2201,Klp-2201,80,Community Hall 80,2019,222,302,4,49,6,583,P2,80,71.3
+Kalimpong,2201,Klp-2201,80,Community Hall 80,2021,243,211,10,84,5,553,P1,32,67.6
+Kalimpong,2201,Klp-2201,81,Panchayat Bhavan 81,2019,165,205,2,35,5,412,P2,40,67.3
+Kalimpong,2201,Klp-2201,81,Panchayat Bhavan 81,2021,196,190,3,35,5,429,P1,6,70.1
+Kalimpong,2201,Klp-2201,82,Market Building 82,2019,156,185,6,80,3,430,P2,29,69.1
+Kalimpong,2201,Klp-2201,82,Market Building 82,2021,112,183,12,101,5,413,P2,71,66.4
+Kalimpong,2201,Klp-2201,83,Health Sub-Centre 83,2019,155,188,9,61,3,416,P2,33,73.9
+Kalimpong,2201,Klp-2201,83,Health Sub-Centre 83,2021,151,155,8,87,4,405,P2,4,71.9
+Kalimpong,2201,Klp-2201,84,Govt Office 84,2019,121,166,5,53,4,349,P2,45,72.3
+Kalimpong,2201,Klp-2201,84,Govt Office 84,2021,155,138,2,28,4,327,P1,17,67.7
+Kalimpong,2201,Klp-2201,85,High School 85,2019,223,286,2,49,5,565,P2,63,72.0
+Kalimpong,2201,Klp-2201,85,High School 85,2021,243,238,3,45,6,535,P1,5,68.2
+Kalimpong,2201,Klp-2201,86,Club Building 86,2019,179,181,16,123,4,503,P2,2,70.2
+Kalimpong,2201,Klp-2201,86,Club Building 86,2021,125,224,17,123,5,494,P2,99,68.9
+Kalimpong,2201,Klp-2201,87,Madrasa 87,2019,208,196,5,81,5,495,P1,12,69.8
+Kalimpong,2201,Klp-2201,87,Madrasa 87,2021,186,195,3,86,5,475,P2,9,67.0
+Kalimpong,2201,Klp-2201,88,Post Office 88,2019,143,147,3,28,3,324,P2,4,65.1
+Kalimpong,2201,Klp-2201,88,Post Office 88,2021,168,152,2,30,3,355,P1,16,71.3
+Kalimpong,2201,Klp-2201,89,Temple Hall 89,2019,245,207,5,40,6,503,P1,38,68.8
+Kalimpong,2201,Klp-2201,89,Temple Hall 89,2021,183,263,5,55,5,511,P2,80,69.9
+Kalimpong,2201,Klp-2201,90,High School 90,2019,202,173,2,36,4,417,P1,29,71.0
+Kalimpong,2201,Klp-2201,90,High School 90,2021,179,174,2,37,4,396,P1,5,67.5
+Kalimpong,2201,Klp-2201,91,Madrasa 91,2019,169,158,2,30,4,363,P1,11,69.7
+Kalimpong,2201,Klp-2201,91,Madrasa 91,2021,95,208,4,68,4,379,P2,113,72.7
+Kalimpong,2201,Klp-2201,92,Temple Hall 92,2019,175,199,4,111,4,493,P2,24,67.7
+Kalimpong,2201,Klp-2201,92,Temple Hall 92,2021,245,179,7,104,5,540,P1,66,74.2
+Kalimpong,2201,Klp-2201,93,Club Building 93,2019,136,149,8,63,4,360,P2,13,66.8
+Kalimpong,2201,Klp-2201,93,Club Building 93,2021,89,157,13,93,3,355,P2,64,65.9
+Kalimpong,2201,Klp-2201,94,Temple Hall 94,2019,131,217,15,109,5,477,P2,86,66.2
+Kalimpong,2201,Klp-2201,94,Temple Hall 94,2021,207,210,4,46,5,472,P2,3,65.6
+Kalimpong,2201,Klp-2201,95,Madrasa 95,2019,111,159,5,157,4,436,P2,2,68.8
+Kalimpong,2201,Klp-2201,95,Madrasa 95,2021,137,194,6,76,4,417,P2,57,65.8
+Kalimpong,2201,Klp-2201,96,Community Hall 96,2019,203,172,6,73,5,459,P1,31,65.4
+Kalimpong,2201,Klp-2201,96,Community Hall 96,2021,140,228,11,97,5,481,P2,88,68.5
+Kalimpong,2201,Klp-2201,97,Club Building 97,2019,219,187,6,104,5,521,P1,32,71.9
+Kalimpong,2201,Klp-2201,97,Club Building 97,2021,243,197,9,70,6,525,P1,46,72.4
+Kalimpong,2201,Klp-2201,98,Market Building 98,2019,333,148,5,43,5,534,P1,185,69.8
+Kalimpong,2201,Klp-2201,98,Market Building 98,2021,204,221,9,100,5,539,P2,17,70.5
+Kalimpong,2202,Klp-2202,1,Primary School 1,2019,205,191,3,47,4,450,P1,14,66.4
+Kalimpong,2202,Klp-2202,1,Primary School 1,2021,188,193,5,78,4,468,P2,5,69.0
+Kalimpong,2202,Klp-2202,2,Post Office 2,2019,169,167,6,44,3,389,P1,2,69.3
+Kalimpong,2202,Klp-2202,2,Post Office 2,2021,169,169,8,68,4,418,P1,0,74.5
+Kalimpong,2202,Klp-2202,3,Temple Hall 3,2019,228,258,5,44,5,540,P2,30,71.2
+Kalimpong,2202,Klp-2202,3,Temple Hall 3,2021,252,258,4,47,6,567,P2,6,74.8
+Kalimpong,2202,Klp-2202,4,Temple Hall 4,2019,204,144,4,71,5,428,P1,60,65.7
+Kalimpong,2202,Klp-2202,4,Temple Hall 4,2021,173,168,6,82,5,434,P1,5,66.7
+Kalimpong,2202,Klp-2202,5,Club Building 5,2019,160,213,9,75,5,462,P2,53,67.0
+Kalimpong,2202,Klp-2202,5,Club Building 5,2021,139,211,8,99,6,463,P2,72,67.1
+Kalimpong,2202,Klp-2202,6,Panchayat Bhavan 6,2019,158,156,4,55,4,377,P1,2,68.8
+Kalimpong,2202,Klp-2202,6,Panchayat Bhavan 6,2021,174,169,4,31,3,381,P1,5,69.5
+Kalimpong,2202,Klp-2202,7,High School 7,2019,235,239,11,83,6,574,P2,4,72.7
+Kalimpong,2202,Klp-2202,7,High School 7,2021,261,225,4,45,6,541,P1,36,68.5
+Kalimpong,2202,Klp-2202,8,Post Office 8,2019,151,186,4,30,4,375,P2,35,68.4
+Kalimpong,2202,Klp-2202,8,Post Office 8,2021,146,171,2,56,4,379,P2,25,69.2
+Kalimpong,2202,Klp-2202,9,Post Office 9,2019,196,298,5,53,6,558,P2,102,68.3
+Kalimpong,2202,Klp-2202,9,Post Office 9,2021,268,223,12,89,6,598,P1,45,73.2
+Kalimpong,2202,Klp-2202,10,Madrasa 10,2019,208,171,8,74,4,465,P1,37,68.4
+Kalimpong,2202,Klp-2202,10,Madrasa 10,2021,194,183,9,74,5,465,P1,11,68.4
+Kalimpong,2202,Klp-2202,11,Market Building 11,2019,110,190,7,63,3,373,P2,80,72.6
+Kalimpong,2202,Klp-2202,11,Market Building 11,2021,137,165,2,37,4,345,P2,28,67.1
+Kalimpong,2202,Klp-2202,12,High School 12,2019,140,212,4,58,4,418,P2,72,70.5
+Kalimpong,2202,Klp-2202,12,High School 12,2021,137,198,3,45,4,387,P2,61,65.3
+Kalimpong,2202,Klp-2202,13,Panchayat Bhavan 13,2019,135,157,2,27,3,324,P2,22,65.6
+Kalimpong,2202,Klp-2202,13,Panchayat Bhavan 13,2021,94,172,7,52,3,328,P2,78,66.4
+Kalimpong,2202,Klp-2202,14,Anganwadi Centre 14,2019,180,262,6,47,4,499,P2,82,67.0
+Kalimpong,2202,Klp-2202,14,Anganwadi Centre 14,2021,233,208,4,40,5,490,P1,25,65.8
+Kalimpong,2202,Klp-2202,15,Temple Hall 15,2019,217,218,9,108,6,558,P2,1,70.2
+Kalimpong,2202,Klp-2202,15,Temple Hall 15,2021,217,256,5,47,5,530,P2,39,66.7
+Kalimpong,2202,Klp-2202,16,Govt Office 16,2019,216,256,4,43,5,524,P2,40,71.0
+Kalimpong,2202,Klp-2202,16,Govt Office 16,2021,278,207,3,45,6,539,P1,71,73.0
+Kalimpong,2202,Klp-2202,17,Temple Hall 17,2019,173,193,6,71,4,447,P2,20,73.2
+Kalimpong,2202,Klp-2202,17,Temple Hall 17,2021,167,220,5,42,5,439,P2,53,71.8
+Kalimpong,2202,Klp-2202,18,Madrasa 18,2019,254,194,7,53,6,514,P1,60,66.6
+Kalimpong,2202,Klp-2202,18,Madrasa 18,2021,200,251,2,45,4,502,P2,51,65.0
+Kalimpong,2202,Klp-2202,19,Club Building 19,2019,207,189,10,82,5,493,P1,18,72.6
+Kalimpong,2202,Klp-2202,19,Club Building 19,2021,230,204,5,38,5,482,P1,26,71.0
+Kalimpong,2202,Klp-2202,20,Community Hall 20,2019,126,173,6,42,3,350,P2,47,69.3
+Kalimpong,2202,Klp-2202,20,Community Hall 20,2021,175,136,3,29,4,347,P1,39,68.7
+Kalimpong,2202,Klp-2202,21,Panchayat Bhavan 21,2019,212,276,5,69,6,568,P2,64,71.7
+Kalimpong,2202,Klp-2202,21,Panchayat Bhavan 21,2021,251,215,2,45,5,518,P1,36,65.4
+Kalimpong,2202,Klp-2202,22,Club Building 22,2019,199,226,3,72,4,504,P2,27,66.8
+Kalimpong,2202,Klp-2202,22,Club Building 22,2021,207,232,6,56,5,506,P2,25,67.0
+Kalimpong,2202,Klp-2202,23,Club Building 23,2019,266,161,2,41,5,475,P1,105,71.4
+Kalimpong,2202,Klp-2202,23,Club Building 23,2021,207,202,2,52,5,468,P1,5,70.4
+Kalimpong,2202,Klp-2202,24,Primary School 24,2019,141,269,13,96,5,524,P2,128,68.3
+Kalimpong,2202,Klp-2202,24,Primary School 24,2021,218,231,5,47,6,507,P2,13,66.1
+Kalimpong,2202,Klp-2202,25,Temple Hall 25,2019,255,217,2,45,5,524,P1,38,74.5
+Kalimpong,2202,Klp-2202,25,Temple Hall 25,2021,213,250,3,43,6,515,P2,37,73.3
+Kalimpong,2202,Klp-2202,26,Market Building 26,2019,131,177,10,84,4,406,P2,46,67.4
+Kalimpong,2202,Klp-2202,26,Market Building 26,2021,200,200,5,35,4,444,P1,0,73.8
+Kalimpong,2202,Klp-2202,27,Anganwadi Centre 27,2019,199,212,6,50,5,472,P2,13,73.5
+Kalimpong,2202,Klp-2202,27,Anganwadi Centre 27,2021,163,241,3,37,5,449,P2,78,69.9
+Kalimpong,2202,Klp-2202,28,Panchayat Bhavan 28,2019,214,189,5,35,4,447,P1,25,70.1
+Kalimpong,2202,Klp-2202,28,Panchayat Bhavan 28,2021,266,143,5,36,4,454,P1,123,71.2
+Kalimpong,2202,Klp-2202,29,Community Hall 29,2019,170,219,15,107,5,516,P2,49,67.6
+Kalimpong,2202,Klp-2202,29,Community Hall 29,2021,219,278,2,48,5,552,P2,59,72.3
+Kalimpong,2202,Klp-2202,30,Panchayat Bhavan 30,2019,213,217,2,41,4,477,P2,4,74.4
+Kalimpong,2202,Klp-2202,30,Panchayat Bhavan 30,2021,195,208,8,55,4,470,P2,13,73.3
+Kalimpong,2202,Klp-2202,31,Anganwadi Centre 31,2019,190,207,2,54,5,458,P2,17,69.2
+Kalimpong,2202,Klp-2202,31,Anganwadi Centre 31,2021,194,210,10,70,5,489,P2,16,73.9
+Kalimpong,2202,Klp-2202,32,High School 32,2019,191,169,1,35,5,401,P1,22,67.9
+Kalimpong,2202,Klp-2202,32,High School 32,2021,120,199,7,59,5,390,P2,79,66.0
+Kalimpong,2202,Klp-2202,33,Club Building 33,2019,188,266,8,59,6,527,P2,78,74.2
+Kalimpong,2202,Klp-2202,33,Club Building 33,2021,209,214,12,83,5,523,P2,5,73.7
+Kalimpong,2202,Klp-2202,34,Club Building 34,2019,130,229,6,48,4,417,P2,99,71.6
+Kalimpong,2202,Klp-2202,34,Club Building 34,2021,183,159,3,31,4,380,P1,24,65.3
+Kalimpong,2202,Klp-2202,35,Madrasa 35,2019,170,205,3,48,4,430,P2,35,66.6
+Kalimpong,2202,Klp-2202,35,Madrasa 35,2021,232,170,5,35,5,447,P1,62,69.2
+Kalimpong,2202,Klp-2202,36,Primary School 36,2019,167,189,7,50,4,417,P2,22,66.5
+Kalimpong,2202,Klp-2202,36,Primary School 36,2021,190,153,8,61,4,416,P1,37,66.3
+Kalimpong,2202,Klp-2202,37,Post Office 37,2019,250,173,5,38,4,470,P1,77,72.9
+Kalimpong,2202,Klp-2202,37,Post Office 37,2021,185,225,6,47,4,467,P2,40,72.4
+Kalimpong,2202,Klp-2202,38,Madrasa 38,2019,145,201,10,101,4,461,P2,56,74.7
+Kalimpong,2202,Klp-2202,38,Madrasa 38,2021,192,199,2,42,4,439,P2,7,71.2
+Kalimpong,2202,Klp-2202,39,Temple Hall 39,2019,119,155,6,137,3,420,P2,18,70.6
+Kalimpong,2202,Klp-2202,39,Temple Hall 39,2021,142,190,3,72,3,410,P2,48,68.9
+Kalimpong,2202,Klp-2202,40,Panchayat Bhavan 40,2019,197,178,7,52,3,437,P1,19,73.0
+Kalimpong,2202,Klp-2202,40,Panchayat Bhavan 40,2021,182,192,5,33,4,416,P2,10,69.4
+Kalimpong,2202,Klp-2202,41,Post Office 41,2019,117,173,12,144,5,451,P2,29,69.5
+Kalimpong,2202,Klp-2202,41,Post Office 41,2021,186,191,7,64,4,452,P2,5,69.6
+Kalimpong,2202,Klp-2202,42,High School 42,2019,192,163,12,91,4,462,P1,29,73.7
+Kalimpong,2202,Klp-2202,42,High School 42,2021,133,201,4,85,4,427,P2,68,68.1
+Kalimpong,2202,Klp-2202,43,Club Building 43,2019,134,203,12,104,5,458,P2,69,66.9
+Kalimpong,2202,Klp-2202,43,Club Building 43,2021,167,202,4,96,5,474,P2,35,69.2
+Kalimpong,2202,Klp-2202,44,Temple Hall 44,2019,120,212,3,71,4,410,P2,92,65.3
+Kalimpong,2202,Klp-2202,44,Temple Hall 44,2021,136,204,3,60,4,407,P2,68,64.8
+Kalimpong,2202,Klp-2202,45,Post Office 45,2019,161,145,3,62,4,375,P1,16,67.9
+Kalimpong,2202,Klp-2202,45,Post Office 45,2021,163,189,2,33,4,391,P2,26,70.8
+Kalimpong,2202,Klp-2202,46,High School 46,2019,147,130,8,78,4,367,P1,17,71.8
+Kalimpong,2202,Klp-2202,46,High School 46,2021,166,163,4,29,4,366,P1,3,71.6
+Kalimpong,2202,Klp-2202,47,Primary School 47,2019,241,205,6,121,6,579,P1,36,74.8
+Kalimpong,2202,Klp-2202,47,Primary School 47,2021,170,248,10,71,5,504,P2,78,65.1
+Kalimpong,2202,Klp-2202,48,Anganwadi Centre 48,2019,195,228,3,56,5,487,P2,33,68.8
+Kalimpong,2202,Klp-2202,48,Anganwadi Centre 48,2021,229,190,5,37,5,466,P1,39,65.8
+Kalimpong,2202,Klp-2202,49,Temple Hall 49,2019,234,130,2,34,4,404,P1,104,74.3
+Kalimpong,2202,Klp-2202,49,Temple Hall 49,2021,164,164,5,36,4,373,P1,0,68.6
+Kalimpong,2202,Klp-2202,50,Anganwadi Centre 50,2019,149,167,2,55,4,377,P2,18,67.3
+Kalimpong,2202,Klp-2202,50,Anganwadi Centre 50,2021,182,122,3,56,4,367,P1,60,65.5
+Kalimpong,2202,Klp-2202,51,High School 51,2019,178,204,4,89,5,480,P2,26,66.2
+Kalimpong,2202,Klp-2202,51,High School 51,2021,284,173,3,43,5,508,P1,111,70.1
+Kalimpong,2202,Klp-2202,52,Community Hall 52,2019,197,221,2,43,4,467,P2,24,66.5
+Kalimpong,2202,Klp-2202,52,Community Hall 52,2021,206,223,4,53,5,491,P2,17,69.9
+Kalimpong,2202,Klp-2202,53,Community Hall 53,2019,141,124,5,53,3,326,P1,17,66.0
+Kalimpong,2202,Klp-2202,53,Community Hall 53,2021,104,165,2,47,4,322,P2,61,65.2
+Kalimpong,2202,Klp-2202,54,Madrasa 54,2019,183,265,2,53,5,508,P2,82,65.2
+Kalimpong,2202,Klp-2202,54,Madrasa 54,2021,170,266,11,96,6,549,P2,96,70.5
+Kalimpong,2202,Klp-2202,55,Market Building 55,2019,181,217,20,156,6,580,P2,36,73.1
+Kalimpong,2202,Klp-2202,55,Market Building 55,2021,239,225,11,80,6,561,P1,14,70.7
+Kalimpong,2202,Klp-2202,56,Madrasa 56,2019,225,288,4,47,6,570,P2,63,72.7
+Kalimpong,2202,Klp-2202,56,Madrasa 56,2021,161,243,7,103,5,519,P2,82,66.2
+Kalimpong,2202,Klp-2202,57,Panchayat Bhavan 57,2019,250,236,5,52,5,548,P1,14,68.6
+Kalimpong,2202,Klp-2202,57,Panchayat Bhavan 57,2021,260,202,4,56,5,527,P1,58,66.0
+Kalimpong,2202,Klp-2202,58,Market Building 58,2019,169,227,4,35,5,440,P2,58,72.6
+Kalimpong,2202,Klp-2202,58,Market Building 58,2021,130,173,8,126,3,440,P2,43,72.6
+Kalimpong,2202,Klp-2202,59,Community Hall 59,2019,102,132,4,127,3,368,P2,5,67.8
+Kalimpong,2202,Klp-2202,59,Community Hall 59,2021,117,164,12,96,4,393,P2,47,72.4
+Kalimpong,2202,Klp-2202,60,Club Building 60,2019,148,137,5,42,4,336,P1,11,67.3
+Kalimpong,2202,Klp-2202,60,Club Building 60,2021,133,160,5,57,3,358,P2,27,71.7
+Kalimpong,2202,Klp-2202,61,Govt Office 61,2019,164,175,4,30,4,377,P2,11,65.2
+Kalimpong,2202,Klp-2202,61,Govt Office 61,2021,113,225,4,77,4,423,P2,112,73.2
+Kalimpong,2202,Klp-2202,62,Club Building 62,2019,197,139,3,31,4,374,P1,58,74.1
+Kalimpong,2202,Klp-2202,62,Club Building 62,2021,117,167,5,49,4,342,P2,50,67.7
+Kalimpong,2202,Klp-2202,63,Panchayat Bhavan 63,2019,228,181,4,37,4,454,P1,47,67.7
+Kalimpong,2202,Klp-2202,63,Panchayat Bhavan 63,2021,178,207,7,53,5,450,P2,29,67.1
+Kalimpong,2202,Klp-2202,64,Primary School 64,2019,178,228,7,103,6,522,P2,50,64.9
+Kalimpong,2202,Klp-2202,64,Primary School 64,2021,157,256,18,139,5,575,P2,99,71.5
+Kalimpong,2202,Klp-2202,65,High School 65,2019,186,184,8,72,5,455,P1,2,73.0
+Kalimpong,2202,Klp-2202,65,High School 65,2021,181,160,7,73,5,426,P1,21,68.4
+Kalimpong,2202,Klp-2202,66,Health Sub-Centre 66,2019,143,186,1,31,4,365,P2,43,71.6
+Kalimpong,2202,Klp-2202,66,Health Sub-Centre 66,2021,171,164,3,31,3,372,P1,7,72.9
+Kalimpong,2202,Klp-2202,67,Post Office 67,2019,115,166,10,72,3,366,P2,51,74.2
+Kalimpong,2202,Klp-2202,67,Post Office 67,2021,138,170,7,50,3,368,P2,32,74.6
+Kalimpong,2202,Klp-2202,68,Panchayat Bhavan 68,2019,185,165,1,34,4,389,P1,20,69.1
+Kalimpong,2202,Klp-2202,68,Panchayat Bhavan 68,2021,132,190,8,66,4,400,P2,58,71.0
+Kalimpong,2202,Klp-2202,69,Post Office 69,2019,262,208,3,71,6,550,P1,54,68.3
+Kalimpong,2202,Klp-2202,69,Post Office 69,2021,231,244,5,42,6,528,P2,13,65.6
+Kalimpong,2202,Klp-2202,70,Temple Hall 70,2019,192,206,8,54,5,465,P2,14,68.8
+Kalimpong,2202,Klp-2202,70,Temple Hall 70,2021,146,241,6,88,5,486,P2,95,71.9
+Kalimpong,2202,Klp-2202,71,Community Hall 71,2019,166,179,5,112,5,467,P2,13,70.3
+Kalimpong,2202,Klp-2202,71,Community Hall 71,2021,163,202,9,111,5,490,P2,39,73.8
+Kalimpong,2202,Klp-2202,72,Health Sub-Centre 72,2019,219,204,6,37,4,470,P1,15,66.5
+Kalimpong,2202,Klp-2202,72,Health Sub-Centre 72,2021,236,194,2,41,5,478,P1,42,67.6
+Kalimpong,2202,Klp-2202,73,Health Sub-Centre 73,2019,159,230,7,115,5,516,P2,71,73.4
+Kalimpong,2202,Klp-2202,73,Health Sub-Centre 73,2021,203,207,8,92,5,515,P2,4,73.3
+Kalimpong,2202,Klp-2202,74,Panchayat Bhavan 74,2019,144,158,13,94,5,414,P2,14,65.6
+Kalimpong,2202,Klp-2202,74,Panchayat Bhavan 74,2021,150,197,7,71,4,429,P2,47,68.0
+Kalimpong,2202,Klp-2202,75,Club Building 75,2019,183,266,7,71,5,532,P2,83,65.8
+Kalimpong,2202,Klp-2202,75,Club Building 75,2021,195,256,11,134,7,603,P2,61,74.6
+Kalimpong,2202,Klp-2202,76,Community Hall 76,2019,199,177,2,50,4,432,P1,22,68.4
+Kalimpong,2202,Klp-2202,76,Community Hall 76,2021,179,214,6,66,5,470,P2,35,74.4
+Kalimpong,2202,Klp-2202,77,Market Building 77,2019,201,178,7,158,6,550,P1,23,68.1
+Kalimpong,2202,Klp-2202,77,Market Building 77,2021,212,260,6,41,6,525,P2,48,65.0
+Kalimpong,2202,Klp-2202,78,Community Hall 78,2019,168,211,7,102,4,492,P2,43,70.6
+Kalimpong,2202,Klp-2202,78,Community Hall 78,2021,148,185,5,128,4,470,P2,37,67.4
+Kalimpong,2202,Klp-2202,79,Govt Office 79,2019,280,211,6,43,5,545,P1,69,71.4
+Kalimpong,2202,Klp-2202,79,Govt Office 79,2021,153,248,8,87,5,501,P2,95,65.7
+Kalimpong,2202,Klp-2202,80,Post Office 80,2019,130,210,4,57,4,405,P2,80,73.4
+Kalimpong,2202,Klp-2202,80,Post Office 80,2021,182,165,2,34,4,387,P1,17,70.1
+Kalimpong,2202,Klp-2202,81,High School 81,2019,209,180,9,119,5,522,P1,29,70.1
+Kalimpong,2202,Klp-2202,81,High School 81,2021,204,128,7,146,6,491,P1,58,65.9
+Kalimpong,2202,Klp-2202,82,Post Office 82,2019,178,209,13,94,4,498,P2,31,74.6
+Kalimpong,2202,Klp-2202,82,Post Office 82,2021,129,201,16,115,4,465,P2,72,69.6
+Kalimpong,2202,Klp-2202,83,Club Building 83,2019,181,204,5,48,4,442,P2,23,74.3
+Kalimpong,2202,Klp-2202,83,Club Building 83,2021,173,225,3,37,5,443,P2,52,74.5
+Kalimpong,2202,Klp-2202,84,Club Building 84,2019,219,218,6,46,4,493,P1,1,65.0
+Kalimpong,2202,Klp-2202,84,Club Building 84,2021,180,206,14,111,5,516,P2,26,68.0
+Kalimpong,2202,Klp-2202,85,High School 85,2019,213,196,4,55,5,473,P1,17,68.7
+Kalimpong,2202,Klp-2202,85,High School 85,2021,156,217,8,112,6,499,P2,61,72.4
+Kalimpong,2202,Klp-2202,86,Govt Office 86,2019,173,190,4,32,4,403,P2,17,68.5
+Kalimpong,2202,Klp-2202,86,Govt Office 86,2021,125,184,11,80,5,405,P2,59,68.9
+Kalimpong,2202,Klp-2202,87,Panchayat Bhavan 87,2019,185,213,4,41,4,447,P2,28,68.6
+Kalimpong,2202,Klp-2202,87,Panchayat Bhavan 87,2021,112,169,5,140,3,429,P2,29,65.8
+Kalimpong,2202,Klp-2202,88,Post Office 88,2019,135,156,3,48,3,345,P2,21,69.3
+Kalimpong,2202,Klp-2202,88,Post Office 88,2021,124,100,6,97,4,331,P1,24,66.5
+Kalimpong,2202,Klp-2202,89,Panchayat Bhavan 89,2019,131,166,2,57,4,360,P2,35,66.8
+Kalimpong,2202,Klp-2202,89,Panchayat Bhavan 89,2021,118,150,14,106,5,393,P2,32,72.9
+Kalimpong,2202,Klp-2202,90,Post Office 90,2019,144,233,5,126,5,513,P2,89,66.4
+Kalimpong,2202,Klp-2202,90,Post Office 90,2021,258,245,3,47,6,559,P1,13,72.3
+Kalimpong,2202,Klp-2202,91,Primary School 91,2019,172,124,4,55,3,358,P1,48,68.5
+Kalimpong,2202,Klp-2202,91,Primary School 91,2021,181,165,4,31,3,384,P1,16,73.4
+Kalimpong,2202,Klp-2202,92,Primary School 92,2019,121,172,9,72,4,378,P2,51,65.5
+Kalimpong,2202,Klp-2202,92,Primary School 92,2021,157,194,6,43,3,403,P2,37,69.8
+Kalimpong,2202,Klp-2202,93,Post Office 93,2019,215,273,6,42,6,542,P2,58,68.0
+Kalimpong,2202,Klp-2202,93,Post Office 93,2021,154,256,15,121,5,551,P2,102,69.1
+Kalimpong,2202,Klp-2202,94,Market Building 94,2019,176,147,2,30,4,359,P1,29,71.9
+Kalimpong,2202,Klp-2202,94,Market Building 94,2021,143,153,3,26,4,329,P2,10,65.9
+Kalimpong,2202,Klp-2202,95,Post Office 95,2019,155,147,4,42,3,351,P1,8,71.5
+Kalimpong,2202,Klp-2202,95,Post Office 95,2021,132,157,4,25,3,321,P2,25,65.4
+Kalimpong,2202,Klp-2202,96,Health Sub-Centre 96,2019,152,176,4,31,3,366,P2,24,65.0
+Kalimpong,2202,Klp-2202,96,Health Sub-Centre 96,2021,128,201,5,59,4,397,P2,73,70.5
+Kalimpong,2202,Klp-2202,97,Market Building 97,2019,190,240,5,74,5,514,P2,50,69.0
+Kalimpong,2202,Klp-2202,97,Market Building 97,2021,270,173,6,56,6,511,P1,97,68.6
+Kalimpong,2202,Klp-2202,98,Anganwadi Centre 98,2019,206,226,4,94,5,535,P2,20,72.7
+Kalimpong,2202,Klp-2202,98,Anganwadi Centre 98,2021,176,197,12,121,6,512,P2,21,69.6
+Kalimpong,2202,Klp-2202,99,Madrasa 99,2019,165,142,5,48,4,364,P1,23,65.4
+Kalimpong,2202,Klp-2202,99,Madrasa 99,2021,111,214,5,77,4,411,P2,103,73.8
+Kalimpong,2202,Klp-2202,100,Community Hall 100,2019,172,112,2,46,4,336,P1,60,66.1
+Kalimpong,2202,Klp-2202,100,Community Hall 100,2021,160,151,2,29,3,345,P1,9,67.9
+Kalimpong,2202,Klp-2202,101,Temple Hall 101,2019,185,163,3,32,3,386,P1,22,70.1
+Kalimpong,2202,Klp-2202,101,Temple Hall 101,2021,118,137,11,94,3,363,P2,19,65.9
+Kalimpong,2202,Klp-2202,102,High School 102,2019,201,295,8,88,6,598,P2,94,74.8
+Kalimpong,2202,Klp-2202,102,High School 102,2021,294,227,6,47,5,579,P1,67,72.4
+Kalimpong,2202,Klp-2202,103,Govt Office 103,2019,143,177,7,63,3,393,P2,34,71.3
+Kalimpong,2202,Klp-2202,103,Govt Office 103,2021,153,207,2,34,4,400,P2,54,72.6
