@@ -1,162 +1,139 @@
-# WB 2026 Election Strategy Intelligence
-### Booth-level campaign ops tool — Murshidabad first, all 23 districts ready
+# Election Booth Intelligence
+### Open-source electoral analytics platform for India
+
+A civic technology tool that transforms publicly available Election Commission of India data into booth-level electoral intelligence. Built for researchers, journalists, political scientists, and civil society organisations.
+
+> **Data disclaimer:** This tool uses exclusively public data published by the Election Commission of India, Census of India, and state Chief Electoral Officer portals. It is intended for electoral research, journalism, civic education, and transparency.
 
 ---
 
-## What this does
+## What it does
 
-A full-stack election strategy tool covering the 3-tier framework:
+Indian elections are decided at the polling booth level. The ECI publishes extraordinarily granular data — booth-wise voter counts, gender splits, turnout, candidate-wise results — but almost none of it is used systematically for research or analysis.
 
-| Tier | What | Scripts |
-|------|------|---------|
-| 1 — Data acquisition | Download SIR 2026 rolls + adjudication lists + Form 20 results | pipeline/01–04 |
-| 2 — Booth classification | A/B/C/D categories (Stronghold/Swing/Hostile/SIR-adj) | pipeline/03 |
-| 3 — Campaign ops | Worker assignment, daily contact targets, D-Day tracker | app.py |
+This tool aggregates, structures, and visualises that data so anyone can answer:
 
----
-
-## Quick start (demo mode — no PDFs needed)
-
-```bash
-# 1. Install
-pip install -r requirements.txt
-
-# 2. Generate realistic demo data for Murshidabad
-python pipeline/00_generate_demo_data.py
-
-# 3. Launch
-streamlit run app.py
-```
-
----
-
-## Production mode (real ECI data)
-
-### Step 1 — Download SIR 2026 electoral rolls
-
-**Manual (recommended):**
-1. Go to https://voters.eci.gov.in/download-eroll
-2. State: West Bengal | Year: 2026 | Roll type: **SIR FinalRoll-Rev2 - 2026**
-3. For each AC in your target district, download all booth PDFs
-4. Save as: `data/raw/sir_rolls/{District}/{ac_code}_{ac_name}/part_NNN.pdf`
-
-**Automated:**
-```bash
-python pipeline/01_download_sir_rolls.py --district Murshidabad --max_acs 3 --delay 2.0
-# Check output, then run full:
-python pipeline/01_download_sir_rolls.py --district Murshidabad --all_acs --delay 1.5
-```
-
-Each PDF = 1 booth/part. Contains: part number, booth name, M/F/3rd gender elector counts.
-
-### Step 2 — Extract PDF data
-
-```bash
-python pipeline/02_extract_sir_rolls.py --district Murshidabad
-```
-Output: `data/processed/sir_rolls_murshidabad.csv`
-
-### Step 3 — Download adjudication lists
-
-1. Go to https://ceowestbengal.wb.gov.in/SIR
-2. For each AC: download **Adjudication Supplementary List No. 15A** (latest)
-3. Save as: `data/raw/adjudication/Murshidabad/{ac_code}/adj_latest.pdf`
-
-```bash
-python pipeline/03_extract_adjudication.py --district Murshidabad
-```
-Output: `data/processed/adjudication_murshidabad.csv`
-
-### Step 4 — Get Form 20 booth-wise results
-
-1. Go to https://results.eci.gov.in → West Bengal
-2. For each AC: download Form 20 for **2021 Assembly** AND **2019 Lok Sabha**
-3. Save as: `data/raw/form20/Murshidabad/{2021 or 2019}/{ac_code}_ACName.pdf`
-
-```bash
-python pipeline/04_extract_form20.py --district Murshidabad --year 2021
-python pipeline/04_extract_form20.py --district Murshidabad --year 2019
-python pipeline/04_extract_form20.py --district Murshidabad --merge
-```
-Output: `data/processed/form20_murshidabad.csv`
-
-### Step 5 — Classify all booths (master file)
-
-```bash
-python pipeline/03_extract_adjudication.py --district Murshidabad
-```
-Output: `data/processed/booths_classified_murshidabad.csv`
+- Which booths in a constituency are genuinely competitive vs already decided?
+- How have elector counts changed across elections in each district?
+- Which booths have the highest proportion of voters whose rights are suspended under administrative review?
+- What is the minimum vote count needed to win a given seat at different turnout scenarios?
+- How have female voter participation rates changed over time?
 
 ---
 
 ## Dashboard tabs
 
-| Tab | Content |
-|-----|---------|
-| District overview | KPIs, elector trends (2016–2026), AC summary table, category distribution |
-| Booth intelligence | Full booth table — searchable, sortable, exportable, all 32 fields |
-| SIR adjudication | District-wise adj %, booth-level crisis map, Form 6 tracker |
-| Swing analysis | Micro-swing booths, votes-to-win calculator, party switch map |
-| Campaign ops | Worker assignment, daily contact tracking, D-Day hourly targets |
-| Data pipeline | Run scripts, check data status, see instructions |
+| Tab | What you see |
+|-----|-------------|
+| State overview | All districts — elector trends, deletion map, adjudication summary |
+| District deep dive | AC-level summary, demographic overlay, votes-to-win |
+| Booth intelligence | Full booth table — searchable, sortable, all fields, CSV export |
+| Adjudication crisis | Booths with suspended voters, restoration tracker |
+| Swing analysis | Micro-swing booths, votes-to-win calculator, flip map |
+| Campaign ops | Worker assignment, contact tracking, election day targets |
+| Data pipeline | Run extraction scripts, check data status |
 
 ---
 
-## Booth classification logic
+## Booth classification framework
 
-| Category | Criteria | Campaign priority |
-|----------|----------|-------------------|
-| A — Stronghold | Party >65% share in both 2019 + 2021 | Maintain 85%+ turnout |
-| B — Swing | Margin <50 votes OR party flipped 2019→2021 | 3× door-to-door min |
-| C — Hostile | Opposition >65% share | Suppress consolidation |
-| D — SIR adjudicated | >10% electors under adjudication | Form 6 restoration NOW |
+Every polling booth is classified into one of four categories based on historical results:
 
-**Priority order: D > B > C > A**
+| Category | Definition | Research implication |
+|----------|-----------|---------------------|
+| A — Secure | Dominant party >65% in last two elections | Stable, low volatility |
+| B — Swing | Margin <50 votes OR winner flipped between elections | High volatility, outcome-determining |
+| C — Unfavourable | Opposition >65% in last two elections | Stable opposition territory |
+| D — Crisis | >10% of registered voters under administrative suspension | Enfranchisement risk |
 
 ---
 
-## Extending to other districts
+## Quick start
 
-```python
-# In pipeline/01_download_sir_rolls.py, add AC mapping:
-MY_DISTRICT_ACS = {
-    "201": "AC Name 1",
-    "202": "AC Name 2",
-    # ... (get codes from voters.eci.gov.in)
-}
+```bash
+# 1. Clone
+git clone https://github.com/samithr1981/election-booth-intelligence.git
+cd election-booth-intelligence
 
-# Then run:
-python pipeline/01_download_sir_rolls.py --district "North 24 Parganas" --all_acs
+# 2. Install
+pip install -r requirements.txt
+
+# 3. Generate demo data (all districts, no PDFs needed)
+python pipeline/00_generate_demo_data.py --all
+
+# 4. Launch
+streamlit run app.py
+```
+
+Demo data generates in under 60 seconds. No API keys or downloads required.
+
+---
+
+## Production mode — real ECI data
+
+### Step 1 — Electoral rolls
+
+1. Go to [voters.eci.gov.in](https://voters.eci.gov.in/download-eroll)
+2. Select state → year → latest Final Roll → district → AC
+3. Download all booth PDFs and save to: `data/raw/sir_rolls/{District}/`
+
+```bash
+python pipeline/02_extract_sir_rolls.py --district "District Name"
+```
+
+### Step 2 — Adjudication lists
+
+1. Go to your state Chief Electoral Officer portal → SIR section
+2. Download Adjudication Supplementary Lists for each AC
+
+```bash
+python pipeline/03_extract_adjudication.py --district "District Name"
+```
+
+### Step 3 — Form 20 booth-wise results
+
+1. Go to [results.eci.gov.in](https://results.eci.gov.in)
+2. Download Form 20 for each AC for last two elections
+
+```bash
+python pipeline/04_extract_form20.py --district "District Name" --year 2021
+python pipeline/04_extract_form20.py --district "District Name" --merge
 ```
 
 ---
 
-## Key data sources
+## Data sources — all public
 
 | Source | URL | Data |
 |--------|-----|------|
-| ECI voter portal | voters.eci.gov.in | SIR 2026 rolls (booth-level M/F counts) |
-| ECI results | results.eci.gov.in | Form 20 (booth-level votes per candidate) |
-| CEO West Bengal | ceowestbengal.wb.gov.in/SIR | Adjudication lists per AC |
-| TCPD Lok Dhaba | tcpd.ashoka.edu.in | Historical constituency results |
-| Census 2011 | censusindia.gov.in | District demographics |
+| ECI voter portal | voters.eci.gov.in | Electoral rolls, booth-level M/F counts |
+| ECI results | results.eci.gov.in | Form 20 booth-level votes per candidate |
+| State CEO portals | state-specific | Adjudication and suspension lists |
+| Census of India 2011 | censusindia.gov.in | District demographics |
 
 ---
 
-## Critical SIR 2026 context
+## Tech stack
 
-- **6.44 crore** confirmed electors statewide (SIR Final Roll, Feb 28 2026)
-- **60.06 lakh** voters on roll but voting suspended (under adjudication)
-- Top 5 districts: Murshidabad (11L), Malda (8.3L), Uttar Dinajpur (4.8L), N24P (5.9L), S24P (5.2L)
-- Demographic skew: Muslim-majority booths disproportionately flagged
-- For any party strategy in these districts: **Form 6 restoration = highest ROI**
+- **Streamlit** — dashboard
+- **pdfplumber** — PDF extraction
+- **Plotly** — visualisations
+- **pandas / numpy** — classification and analysis
+- **Python 3.10+**
 
 ---
 
-## Deploy to Streamlit Cloud
+## Extending to other states
 
-```
-# requirements.txt already included
-# Point to app.py as entry point
-# Set secrets if needed (none required for demo mode)
-```
+The framework works for any Indian state. Add district and AC mappings in the pipeline scripts and run for your target district. Pull requests welcome.
+
+---
+
+## Licence
+
+MIT — free to use, modify, and distribute with attribution.
+
+---
+
+*Built with ECI open data · Census of India 2011 · Python · Streamlit*  
+*Intended for electoral research, journalism, and civic education*
